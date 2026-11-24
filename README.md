@@ -1,5 +1,7 @@
 # apiserpent-mcp
 
+[![apiserpent/apiserpent-mcp MCP server](https://glama.ai/mcp/servers/apiserpent/apiserpent-mcp/badges/score.svg)](https://glama.ai/mcp/servers/apiserpent/apiserpent-mcp)
+
 An [MCP](https://modelcontextprotocol.io) server for the [Serpent API](https://apiserpent.com) that gives AI agents real-time Google search results as structured JSON.
 
 ## Tools
