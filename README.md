@@ -31,7 +31,7 @@ The server reads your API key from the `APISERPENT_API_KEY` environment variable
 export APISERPENT_API_KEY="your-api-key"
 ```
 
-The key is sent to the Serpent API as a Bearer token in the `Authorization` header.
+The key is sent to the Serpent API in the `X-API-Key` header.
 
 ## Usage
 

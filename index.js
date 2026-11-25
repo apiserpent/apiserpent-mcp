@@ -44,7 +44,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
     try {
       const response = await axios.get(`https://apiserpent.com/api/search`, {
         params: { q: query },
-        headers: { Authorization: `Bearer ${apiKey}` }
+        headers: { "X-API-Key": apiKey }
       });
 
       return {
